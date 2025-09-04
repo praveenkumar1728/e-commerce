@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Pepperidge Farm Chocolate Collection Cookies",
+    "price": 50.00,
+    "description": "Chocolate assorted cookies, perfect for gifting and snacking. 500g pack with 25% off.",
+    "ratings": 4.5,
+    "images": [
+      { "image": "/assets/images/grocery/20.jpg" }
+    ],
+    "category": "Bakery & Snacks",
+    "seller": "Amazon",
+    "stock": 15
+  },
+  {
+    "name": "Rubio Extra Dorada Chips",
+    "price": 19.00,
+    "description": "Crispy golden potato chips by Rubio. 500g pack with 25% off.",
+    "ratings": 4.2,
+    "images": [
+      { "image": "/assets/images/grocery/21.jpg" }
+    ],
+    "category": "Snacks",
+    "seller": "Flipkart",
+    "stock": 25
+  },
+  {
+    "name": "Mandarin Oranges",
+    "price": 99.00,
+    "description": "Fresh mandarin oranges. 500g pack with 25% off.",
+    "ratings": 4.7,
+    "images": [
+      { "image": "/assets/images/grocery/05.jpg" }
+    ],
+    "category": "Fruits",
+    "seller": "Amazon",
+    "stock": 10
+  },
+  {
+    "name": "Town House Original Crackers",
+    "price": 29.00,
+    "description": "Classic Town House original crackers. 500g pack, 25% off.",
+    "ratings": 4.3,
+    "images": [
+      { "image": "/assets/images/grocery/16.jpg" }
+    ],
+    "category": "Bakery & Snacks",
+    "seller": "Ebay",
+    "stock": 20
+  },
+  {
+    "name": "Pepperidge Farm Chocolate Collection Cookies",
+    "price": 50.00,
+    "description": "Chocolate assorted cookies, perfect for gifting and snacking. 500g pack with 25% off.",
+    "ratings": 4.5,
+    "images": [
+      { "image": "/assets/images/grocery/20.jpg" }
+    ],
+    "category": "Bakery & Snacks",
+    "seller": "Amazon",
+    "stock": 15
+  },
+  {
+    "name": "Rubio Extra Dorada Chips",
+    "price": 19.00,
+    "description": "Crispy golden potato chips by Rubio. 500g pack with 25% off.",
+    "ratings": 4.2,
+    "images": [
+      { "image": "/assets/images/grocery/21.jpg" }
+    ],
+    "category": "Snacks",
+    "seller": "Flipkart",
+    "stock": 25
+  },
+  {
+    "name": "Town House Original Crackers",
+    "price": 29.00,
+    "description": "Classic Town House original crackers. 500g pack, 25% off.",
+    "ratings": 4.3,
+    "images": [
+      { "image": "/assets/images/grocery/16.jpg" }
+    ],
+    "category": "Bakery & Snacks",
+    "seller": "Ebay",
+    "stock": 20
+  },
+  {
+    "name": "Coca Cola + Fanta + Sprite Soft Drink Combo",
+    "price": 45.00,
+    "description": "1kg pack assorted soft drinks. Save 10%!",
+    "ratings": 4.4,
+    "images": [
+      { "image": "/assets/images/grocery/25.jpg" }
+    ],
+    "category": "Beverages",
+    "seller": "BigBasket",
+    "stock": 8
+  },
+  {
+    "name": "Pringles + Print Your Ideas Snacks",
+    "price": 70.00,
+    "description": "Assorted chips and snacks. 2kg pack, 15% off.",
+    "ratings": 4.6,
+    "images": [
+      { "image": "/assets/images/grocery/22.jpg" }
+    ],
+    "category": "Snacks",
+    "seller": "Amazon",
+    "stock": 12
+  },
+  {
+    "name": "Cantaloupe Melon (Sliced)",
+    "price": 25.00,
+    "description": "Fresh cantaloupe slices, 250g pack, 30% off.",
+    "ratings": 4.2,
+    "images": [
+      { "image": "/assets/images/grocery/18.jpg" }
+    ],
+    "category": "Fruits",
+    "seller": "Grofers",
+    "stock": 27
+  },
+  {
+    "name": "Danone Yogurt & Dairy Mixer Pack",
+    "price": 15.00,
+    "description": "Fresh dairy yogurt and strawberry mixer. 1L pack, 5% off.",
+    "ratings": 4.3,
+    "images": [
+      { "image": "/assets/images/grocery/19.jpg" }
+    ],
+    "category": "Dairy",
+    "seller": "Flipkart",
+    "stock": 22
+  },
+  {
+    "name": "Healthy Choice Chicken & Broccoli Alfredo",
+    "price": 40.00,
+    "description": "Healthy Choice ready meal. 500g pack, 20% off.",
+    "ratings": 4.5,
+    "images": [
+      { "image": "/assets/images/grocery/23.jpg" }
+    ],
+    "category": "Ready Meals",
+    "seller": "Amazon",
+    "stock": 14
+  },
+  {
+    "name": "Quaker Oats",
+    "price": 55.00,
+    "description": "Gluten-free Quaker oats, 750g pack, 18% off.",
+    "ratings": 4.2,
+    "images": [
+      { "image": "/assets/images/grocery/24.jpg" }
+    ],
+    "category": "Health Foods",
+    "seller": "Ebay",
+    "stock": 13
+  },
+  {
+    "name": "Cheez-It White Cheddar Crackers",
+    "price": 60.00,
+    "description": "Cheez-It family size white cheddar. 1kg pack, 12% off.",
+    "ratings": 4.7,
+    "images": [
+      { "image": "/assets/images/grocery/26.jpg" }
+    ],
+    "category": "Snacks",
+    "seller": "Amazon",
+    "stock": 11
+  },
+  {
+    "name": "Perdue Chicken Breast Nuggets",
+    "price": 35.00,
+    "description": "Value pack chicken nuggets, 6 Bottles pack, 8% off.",
+    "ratings": 4.0,
+    "images": [
+      { "image": "/assets/images/grocery/17.jpg" }
+    ],
+    "category": "Frozen Foods",
+    "seller": "Flipkart",
+    "stock": 18
+  }
+]

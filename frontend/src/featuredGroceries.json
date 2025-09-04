@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "link": "/shop/firebase-business-makes-your-profit",
+    "image": "/assets/images/grocery/20.jpg",
+    "alt": "grocery",
+    "badge": "25% Off",
+    "title": "Firebase business makes your profit",
+    "availability": "500g Pack",
+    "currentPrice": "$50.00",
+    "previousPrice": "$36.00"
+  },
+  {
+    "id": 2,
+    "link": "/shop/netlyfy-business-makes-your-profit",
+    "image": "/assets/images/grocery/21.jpg",
+    "alt": "grocery",
+    "badge": "25% Off",
+    "title": "Netlyfy business makes your profit",
+    "availability": "500g Pack",
+    "currentPrice": "$19.00",
+    "previousPrice": "$36.00"
+  },
+  {
+    "id": 3,
+    "link": "/shop/Best-one-profitable-business-makes-your-profit",
+    "image": "/assets/images/grocery/05.jpg",
+    "alt": "grocery",
+    "badge": "25% Off",
+    "title": "Best-one Profitable business makes your profit",
+    "availability": "500g Pack",
+    "currentPrice": "$99.00",
+    "previousPrice": "$36.00"
+  },
+  {
+    "id": 4,
+    "link": "/shop/details-profitable-business-makes-your-profit",
+    "image": "/assets/images/grocery/16.jpg",
+    "alt": "grocery",
+    "badge": "25% Off",
+    "title": "Details Profitable business makes your profit",
+    "availability": "500g Pack",
+    "currentPrice": "$29.00",
+    "previousPrice": "$36.00"
+  },
+  {
+    "id": 5,
+    "link": "/shop/firebase-business-makes-your-profit",
+    "image": "/assets/images/grocery/20.jpg",
+    "alt": "grocery",
+    "badge": "25% Off",
+    "title": "Firebase business makes your profit",
+    "availability": "500g Pack",
+    "currentPrice": "$50.00",
+    "previousPrice": "$36.00"
+  },
+  {
+    "id": 6,
+    "link": "/shop/netlyfy-business-makes-your-profit",
+    "image": "/assets/images/grocery/21.jpg",
+    "alt": "grocery",
+    "badge": "25% Off",
+    "title": "Netlyfy business makes your profit",
+    "availability": "500g Pack",
+    "currentPrice": "$19.00",
+    "previousPrice": "$36.00"
+  },
+  {
+    "id": 7,
+    "link": "/shop/details-profitable-business-makes-your-profit",
+    "image": "/assets/images/grocery/16.jpg",
+    "alt": "grocery",
+    "badge": "25% Off",
+    "title": "Details Profitable business makes your profit",
+    "availability": "500g Pack",
+    "currentPrice": "$29.00",
+    "previousPrice": "$36.00"
+  }
+]

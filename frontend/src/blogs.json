@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "img": "assets/images/blog/01.jpg",
+    "date": "15 Sep, 2023",
+    "category": "Modern Fashion",
+    "title": "Shion Fixation: Fueling Your Passion for All Things Stylish",
+    "link": "/blog/Shion-Fixation-Fueling-Your-Passion-for-All-Things-Stylish"
+  },
+  {
+    "id": 2,
+    "img": "assets/images/blog/02.jpg",
+    "date": "15 Sep, 2023",
+    "category": "Modern Fashion",
+    "title": "Ashion Fixation: Fueling Your Passion for All Things Stylish",
+    "link": "/blog/ashion-fixation-fueling-your-passion-for-all-things-stylish"
+  },
+  {
+    "id": 3,
+    "img": "assets/images/blog/03.jpg",
+    "date": "15 Sep, 2023",
+    "category": "Modern Fashion",
+    "title": "Fixation: Fueling Your Passion for All Things Stylish",
+    "link": "/blog/fixation-fueling-your-passion-for-all-things-stylish"
+  },
+  {
+    "id": 4,
+    "img": "assets/images/blog/04.jpg",
+    "date": "15 Sep, 2023",
+    "category": "Modern Fashion",
+    "title": "Fashion Fixation: Fueling Your Passion for All Things Stylish",
+    "link": "/blog/fashion-fixation-fueling-your-passion-for-all-things-stylish"
+  }
+]
