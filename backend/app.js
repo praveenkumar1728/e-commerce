@@ -12,7 +12,12 @@ const orders = require('./routes/order')
 
 connectDatabase()
 app.use(express.json());
-app.use(cors())
+
+app.use(cors({
+  origin: "https://e-commerce-frontend-alpha-sandy.vercel.app",
+  credentials: true,
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
 
 app.use('/api/v1/',products)
 app.use('/api/v1/',orders)
