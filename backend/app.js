@@ -14,9 +14,7 @@ connectDatabase()
 app.use(express.json());
 
 app.use(cors({
-  origin: "https://e-commerce-frontend-alpha-sandy.vercel.app",
-  credentials: true,
-  allowedHeaders: ["Content-Type", "Authorization"]
+  origin: "https://e-commerce-frontend-alpha-sandy.vercel.app"
 }));
 
 app.use('/api/v1/',products)
