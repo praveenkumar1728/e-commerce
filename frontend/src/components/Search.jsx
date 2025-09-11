@@ -8,7 +8,7 @@ const Search = () => {
 
     const handleSubmit = ()=>{
         
-        navigate(`search?keyword=${keyword}`)
+        navigate(`/shop/search?keyword=${keyword}`)
         
     }
     

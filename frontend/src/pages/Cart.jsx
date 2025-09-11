@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import {toast} from "react-toastify"
 
 const Cart = ({cartItems,setCartItems}) => {
+  const [complete,setComplete] = useState(false)
   
     const increaseQty = (item)=>{
       if(item.product.stock == item.qty){
@@ -32,6 +34,20 @@ const Cart = ({cartItems,setCartItems}) => {
     const removeItem = (item)=>{
       const updateItem = cartItems.filter((i)=>i.product._id != item.product._id)
       setCartItems(updateItem)
+    }
+
+    const placeOrder = ()=>{
+      const apiUrl = import.meta.env.VITE_API_URL
+      fetch(`${apiUrl}/order`,{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify(cartItems)
+      })
+      .then(()=>{
+        setCartItems([]);
+        setComplete(true);
+        toast.success("Order Placed Successfully !")
+      })
     }
 
   return (
@@ -174,7 +190,7 @@ const Cart = ({cartItems,setCartItems}) => {
                     <h6 className="price">₹ {cartItems.reduce((acc,item)=>(acc + item.product.price * item.qty),0)}</h6>
                   </div>
                   <div className="button-area">
-                    <button className="rts-btn btn-primary">
+                    <button className="rts-btn btn-primary" onClick={placeOrder}>
                       Proceed To Checkout
                     </button>
                   </div>
@@ -184,7 +200,12 @@ const Cart = ({cartItems,setCartItems}) => {
           </div>
         </div>
       </div>
-    </section>: <h2 className="e-cart">Your Cart is Empty</h2> }
+    </section>: (!complete ?
+    <h2 className="e-cart">Your Cart is Empty</h2> : 
+    <div className="e-cart my-3 ">
+      <h2 className="text-center text-success">Order Completed !</h2>
+      <p className="text-center text-success">Your Order Has Been Placed Successfully !</p>
+    </div> ) }
     </>
   );
 };
